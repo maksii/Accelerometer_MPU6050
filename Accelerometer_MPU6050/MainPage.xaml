@@ -7,7 +7,13 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Grid Background="{ThemeResource AppBarItemForegroundThemeBrush}">
+        <TextBox x:Name="textBoxStatus" HorizontalAlignment="Left" Margin="29,61,0,0" TextWrapping="Wrap" Text="Status" VerticalAlignment="Top" Width="299"/>
+        <TextBox x:Name="textBoxAccel" HorizontalAlignment="Left" Margin="29,140,0,0" TextWrapping="Wrap" Text="Accelerometr" VerticalAlignment="Top" Width="299"/>
+        <TextBox x:Name="textBoxGyro" HorizontalAlignment="Left" Margin="29,225,0,0" TextWrapping="Wrap" Text="Gyro" VerticalAlignment="Top" Width="299"/>
+        <TextBlock x:Name="textBlockStatus" HorizontalAlignment="Left" Margin="29,36,0,0" TextWrapping="Wrap" Text="Current Status" VerticalAlignment="Top" Foreground="#FFFFFBFB"/>
+        <TextBlock x:Name="textBlockSAccel" HorizontalAlignment="Left" Margin="34,115,0,0" TextWrapping="Wrap" Text="Current Accel (x,y,z)" VerticalAlignment="Top" Foreground="#FFFFFBFB"/>
+        <TextBlock x:Name="textBlockSGyro" HorizontalAlignment="Left" Margin="34,200,0,0" TextWrapping="Wrap" Text="Current Gyro (x,y,z)" VerticalAlignment="Top" Foreground="#FFFFFBFB"/>
 
     </Grid>
 </Page>
